@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div.container {
+  text-align: center;
+}
+
+.container h1 {
+  font-family: "century gothic";
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+#clear {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+  user-select: none;
+  background-color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  border-color: black;
+  outline: none;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+button:active {
+  background-color: white;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
